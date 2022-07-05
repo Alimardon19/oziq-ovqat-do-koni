@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(30px);
+    border: 1px solid red;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    height: 90px;
+}
+nav ul {
+    border: 1px solid red;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 45px;
+}
+nav button {
+    background-color: #DC780B;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-block {
+    margin-top: 90px;
+    display: flex;
+    height: calc(100vh - 90px);
+    align-items: center;
+    padding: 0 150px;
+}
+.header-box-item {
+    border: 1px solid red;
+    height: 50vh;
+}
+
+.card-block {
+    border: 1px solid red;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-menu {
+    width: 30%;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+.counter {
+    display: flex;
+    justify-content: space-between;
+}
+.pd {
+    padding: 10px;
+}
+.Modal {
+    width: 90%;
+    margin: 0 auto;
+    height: 85vh;
+    border: 1px solid red;
+    background-color:grey;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    display: none;
+    padding: 15px 30px;
+    overflow-y: auto;
+}

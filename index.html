@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./bootstrap-4/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <img src="./food/logo.png" alt="#">
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> About us </a></li>
+                <li><a href="#"> Menu </a></li>
+                <li><a href="#"> Fetures </a></li>
+                <li><a href="#"> Contact us </a></li>
+            </ul>
+        </div>
+        <button onclick="openModal()"> <i class="bi bi-cart"></i> <b id="count"></b> </button>
+    </nav>
+
+    <div class="header-block">
+        <div class="header-box">
+            <div class="header-box-item">
+                <h1>
+                    Making time a good time by making food the good food.
+                </h1>
+                <p>
+                    There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls
+                    with Persons but also specialized equipment,
+                </p>
+                <button>Order Now</button>
+                <button>Foot Detalis</button>
+            </div>
+        </div>
+        <div class="header-box">
+            <img src="./food/eat-4.png" alt="">
+        </div>
+    </div>
+
+    <div class="card-block">
+    </div>
+
+
+
+
+    <div class="Modal">
+        <h1 class="text-center mb-2"> Bascet </h1>
+        <table class="table table hover text-white">
+            <thead>
+                <tr>
+                    <th> N </th>
+                    <th> Product Name </th>
+                    <th> Product Price </th>
+                    <th> Count </th>
+                    <th> Delete </th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./bootstrap-4/js/jQuery.min.js"></script>
+    <script src="./bootstrap-4/js/popper.js"></script>
+    <script src="./bootstrap-4/js/bootstrap.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
